@@ -111,7 +111,7 @@ createFloatingJumpButton()
 -- Toggle Auto Jump
 MainTab:Toggle({
 Title = "Auto Jump",
-Default = ‎"ออโตักระโดด",
+Default = false,
 Callback = function(state)
 
 autoJump = state  
